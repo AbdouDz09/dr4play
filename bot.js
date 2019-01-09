@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "4";
 /////////////////////////
 ////////////////////////
 
@@ -343,7 +343,7 @@ client.on('message', message => {
       message.channel.send(helpEmbed);
     }
 });
-var adminprefix = "1";
+var adminprefix = "4";
 const devs = ['461468630773661699'];
 client.on('message', message => {//Toxic Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Toxic Code
